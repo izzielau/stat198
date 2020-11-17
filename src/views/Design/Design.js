@@ -24,7 +24,7 @@ function Design() {
                   name="OnLo"
                   image=<img className="image" src={onlo} />
                   position="UI/UX Designer"
-                  link="/onlo"
+                  link="/design/onlo"
               />
           </div>
       </div>

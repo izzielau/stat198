@@ -1,3 +1,3 @@
 # izzielau
 
-A work-in-progress.
+My personal website! 

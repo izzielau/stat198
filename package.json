@@ -1,7 +1,7 @@
 {
-  "name": "earsighted",
+  "name": "izzielau",
   "version": "0.1.0",
-  "description": "A web application aimed at improving the day-to-day travels of visually-impaired individuals.",
+  "description": "The personal website of an Izzie Lau.",
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-scripts/scripts/start.js",

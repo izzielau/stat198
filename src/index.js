@@ -22,7 +22,7 @@ const routing = (
             <Route exact path="/" component={Landing} />
             <Route path="/design" component={Design} />
             <Route path="/software" component={Software} />
-            <Route path="/onlo" component={OnLo} />
+            <Route path="/design/onlo" component={OnLo} />
         </div>
     </Router>
 )
