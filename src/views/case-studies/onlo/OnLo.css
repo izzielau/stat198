@@ -1,0 +1,35 @@
+.onlo {
+    height: 92.5vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 150px;
+}
+
+.onlo .title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 25px;
+}
+
+.onlo .subtitle {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 50px;
+}

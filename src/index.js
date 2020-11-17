@@ -9,10 +9,9 @@ import 'typeface-roboto'
 
 import Header from './Header.js'
 import Landing from './views/Landing/Landing';
-import About from './views/About/About'
 import Design from './views/Design/Design'
 import Software from './views/Software/Software'
-import AFX2020 from './views/AFX2020/AFX2020'
+import OnLo from './views/case-studies/onlo/OnLo'
 
 import * as serviceWorker from './serviceWorker';
 
@@ -21,10 +20,9 @@ const routing = (
         <div>
             <Header />
             <Route exact path="/" component={Landing} />
-            <Route path="/about" component={About} />
             <Route path="/design" component={Design} />
             <Route path="/software" component={Software} />
-            <Route path="/afx2020" component={AFX2020} />
+            <Route path="/onlo" component={OnLo} />
         </div>
     </Router>
 )
