@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+
+.design {
+    height: 92.5vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.design .title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 25px;
+}
+
+.design .subtitle {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 50px;
+}
+
+.design .carousel {
+    display: flex;
+}
+
+.design .carousel .image {
+    object-fit: cover;
+
+    width: 160px;
+    height: 160px;
+
+    margin-bottom: 10px;
+}

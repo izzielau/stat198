@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+
+.About {
+    height: 92.5vh;
+    width: 100vw;
+    background: #92ABEA;
+    /*linear-gradient(118.12deg, #F09C63 1.43%, #F0818E 68.64%);*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Image {
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #92ABEA;
+
+    resize: 'contain';
+}
+
+.Image-text {
+    justify-content: center;
+    align-items: center;
+}
+
+.Text {
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: transparent;
+    box-shadow: none;
+
+}
+
+.Text-title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #FFFFFF;
+
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.Text-subtitle-bold {
+    font-family: 'avenir';
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.Text-subtitle {
+    font-family: 'avenir';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}

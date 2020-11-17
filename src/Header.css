@@ -1,0 +1,22 @@
+.NavigationBar {
+    height: 7.5vh;
+
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+}
+
+.NavigationBar-Left {
+    display: flex;
+    flex: 1;
+}
+
+.NavigationBar-Right {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 10px;*/
+}
+
+.Header-margin {
+    height: 10px;
+}
