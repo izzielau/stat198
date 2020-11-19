@@ -2,7 +2,7 @@
   "name": "izzielau",
   "version": "0.1.0",
   "description": "The personal website of an Izzie Lau.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-scripts/scripts/start.js",
     "build": "react-scripts build",
