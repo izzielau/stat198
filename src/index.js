@@ -24,7 +24,7 @@ const routing = (
             <Route exact path="/design" component={Design} />
             <Route exact path="/software" component={Software} />
             <Route exact path="/onlo" component={Onlo} />
-            <Route exact path="/afx" component={Dance} />
+            <Route exact path="/dance" component={Dance} />
         </div>
     </Router>
 )

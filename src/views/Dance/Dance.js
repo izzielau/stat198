@@ -37,19 +37,19 @@ function Dance() {
               Instagram, YouTube, and Facebook.
           </div>
           <div className="carousel">
-              <img className="image" src={workshop} />
-              <img className="image" src={amongus} />
+              <img className="image" src={apparel3} />
+              <img className="image" src={apparel4} />
           </div>
-          <img className="image" src={tech} />
-          <img className="image" src={workshopad} />
           <div className="carousel">
               <img className="image" src={apparel1} />
               <img className="image" src={apparel2} />
           </div>
           <div className="carousel">
-              <img className="image" src={apparel3} />
-              <img className="image" src={apparel4} />
+              <img className="image" src={workshop} />
+              <img className="image" src={amongus} />
           </div>
+          <img className="image" src={tech} />
+          <img className="image" src={workshopad} />
       </div>
   );
 }

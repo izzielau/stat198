@@ -21,18 +21,22 @@ function Design() {
               My main tools of choice are Figma and Adobe Illustrator.
           </div>
           <div className="carousel">
-              <Polaroid
-                  name="OnLo"
-                  image=<img className="image" src={onlo} />
-                  position="UI/UX Designer"
-                  link="/onlo"
-              />
-              <Polaroid
-                  name="AFX Dance"
-                  image=<img className="image" src={afx} />
-                  position="Chair of Design"
-                  link="/afx"
-              />
+              <a href="/onlo">
+                  <Polaroid
+                      name="OnLo"
+                      image=<img className="image" src={onlo} />
+                      position="UI/UX Designer"
+                      link="/onlo"
+                  />
+              </a>
+              <a href="/dance">
+                  <Polaroid
+                      name="AFX Dance"
+                      image=<img className="image" src={afx} />
+                      position="Chair of Design"
+                      link="/dance"
+                  />
+              </a>
           </div>
       </div>
 

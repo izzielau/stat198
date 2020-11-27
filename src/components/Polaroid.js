@@ -4,7 +4,6 @@ import './Polaroid.css';
 
 const Polaroid = ({ image, name, position, link }) => {
   return (
-    <a href={link != null ? `${link}` : "/"} style={{ textDecoration: "none"}}>
     <div className="polaroid">
       <div className="imageContainer">
         {image != null ? image :
@@ -20,7 +19,6 @@ const Polaroid = ({ image, name, position, link }) => {
         </h2>
       </div>
     </div>
-    </a>
   );
 }
 
