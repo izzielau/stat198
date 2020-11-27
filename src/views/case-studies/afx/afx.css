@@ -1,0 +1,102 @@
+.afx {
+    height: 200vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 150px;
+}
+
+.afx .title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+}
+
+.afx .subtitle {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 50px;
+}
+
+.afx .branding {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+
+}
+
+.afx .image {
+    width: 600px;
+    object-fit: cover;
+
+    margin-bottom: 50px;
+}
+
+.afx .examples {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+
+}
+
+.afx .carousel {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.afx .carousel .image {
+    width: 290px;
+    object-fit: cover;
+
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.afx .carousel .apparel {
+    width: 150px;
+    object-fit: cover;
+
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

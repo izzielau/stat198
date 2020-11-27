@@ -3,7 +3,7 @@ import React from 'react';
 import NavigationButton from './../../components/NavigationButton.js'
 
 import './Landing.css';
-import profile from './../../assets/profile.png';
+import profile from './../../assets/profile.jpg';
 import linkedin from './../../assets/linkedin.png';
 import github from './../../assets/github.png';
 import gmail from './../../assets/gmail.png';

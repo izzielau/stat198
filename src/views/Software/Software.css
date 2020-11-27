@@ -26,7 +26,7 @@
     font-weight: normal;
     font-size: 64px;
 
-    color: #FFFFFF;
+    color: #3E3E3E;
 
     margin-bottom: 25px;
 }
@@ -39,7 +39,7 @@
     font-weight: normal;
     font-size: 18px;
 
-    color: #FFFFFF;
+    color: #3E3E3E;
 
     margin-bottom: 50px;
 }
@@ -75,13 +75,13 @@
 
 .software .icon-subtitle {
     font-family: 'avenir';
-    font-weight: bolder;
+    font-style: normal;
     font-size: 14px;
 
     line-height: 24px;
     margin-bottom: 24px;
 
-    color: #FFFFFF;
+    color: #C5C5C5;
 }
 
 

@@ -12,6 +12,7 @@ import Landing from './views/Landing/Landing';
 import Design from './views/Design/Design'
 import Software from './views/Software/Software'
 import OnLo from './views/case-studies/onlo/OnLo'
+import AFX from './views/case-studies/afx/afx'
 
 import * as serviceWorker from './serviceWorker';
 
@@ -20,9 +21,10 @@ const routing = (
         <div>
             <Header />
             <Route exact path="/" component={Landing} />
-            <Route path="/design" component={Design} />
-            <Route path="/software" component={Software} />
-            <Route path="/design/onlo" component={OnLo} />
+            <Route exact path="/design" component={Design} />
+            <Route exact path="/software" component={Software} />
+            <Route exact path="/design/onlo" component={OnLo} />
+            <Route exact path="/design/afx" component={AFX} />
         </div>
     </Router>
 )

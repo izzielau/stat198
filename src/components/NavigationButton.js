@@ -11,14 +11,14 @@ const ColorButton = withStyles(() => ({
     root: {
         font: "Open Sans",
         fontWeight: "bold",
-        color: "#E1E4EE",
+        color: "#3E3E3E",
         // 92ABEA 4F6DB9
         backgroundColor: "none",
         borderRadius: '0px',
         width: '125px',
         height: '7.5vh',
         '&:hover': {
-            color: "#3E3E3E",
+            color: "#6C6C6C",
             backgroundColor: "#E1E4EE",
         },
     },

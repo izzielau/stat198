@@ -8,6 +8,7 @@ import Polaroid from './../../components/Polaroid.js'
 import './Design.css'
 
 import onlo from './../../assets/cover-onlo.png'
+import afx from './../../assets/afx-2020-large.png'
 
 function Design() {
   return (
@@ -25,6 +26,12 @@ function Design() {
                   image=<img className="image" src={onlo} />
                   position="UI/UX Designer"
                   link="/design/onlo"
+              />
+              <Polaroid
+                  name="AFX"
+                  image=<img className="image" src={afx} />
+                  position="Chair of Design"
+                  link="/design/afx"
               />
           </div>
       </div>
