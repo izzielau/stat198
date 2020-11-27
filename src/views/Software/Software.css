@@ -50,6 +50,8 @@
     flex-direction: row;
 
     align-items: center;
+
+    transition: transform .35s;
 }
 
 .software .carousel .pdf {
