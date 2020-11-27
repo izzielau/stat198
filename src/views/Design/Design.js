@@ -25,13 +25,13 @@ function Design() {
                   name="OnLo"
                   image=<img className="image" src={onlo} />
                   position="UI/UX Designer"
-                  link="/design/onlo"
+                  link="/onlo"
               />
               <Polaroid
-                  name="AFX"
+                  name="AFX Dance"
                   image=<img className="image" src={afx} />
                   position="Chair of Design"
-                  link="/design/afx"
+                  link="/afx"
               />
           </div>
       </div>
