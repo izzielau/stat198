@@ -50,7 +50,7 @@
     align-items: center;
     flex-direction: row;
 
-    height: 100vh;
+    margin-top: 100px;
     margin-left: 150px;
 }
 
@@ -64,9 +64,10 @@
 }
 
 .landing .about .image {
+    margin-top: 130px;
+
     object-fit: cover;
     width: 350px;
-    height: 350px;
 }
 
 .landing .about .descriptionContainer {

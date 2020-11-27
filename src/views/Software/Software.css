@@ -29,6 +29,7 @@
     color: #3E3E3E;
 
     margin-bottom: 25px;
+    margin-right: 100px;
 }
 
 .software .subtitle {
@@ -47,44 +48,20 @@
 .software .carousel {
     display: flex;
     flex-direction: row;
+
+    align-items: center;
 }
 
-.software .carousel .button {
+.software .carousel .pdf {
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    width: 75px;
+    width: 500px;
+    height: 650px;
 }
 
-.software .pdf {
-    height: 100vh;
-    overflow: fill;
-}
-
-.software .icon {
-    height: 50px;
-    margin-bottom: 2.5px;
-
-    transition: transform 0.35s;
-}
-
-.software .icon:hover {
-    transform: scale(1.15);
-}
-
-.software .icon-subtitle {
-    font-family: 'avenir';
-    font-style: normal;
-    font-size: 14px;
-
-    line-height: 24px;
-    margin-bottom: 24px;
-
-    color: #C5C5C5;
-}
-
-
-.software .spacer {
-    height: 50px;
+.software .carousel .pdf:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
 }

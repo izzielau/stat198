@@ -50,8 +50,15 @@ function Landing() {
                       my community.
                   </div>
                   <div className="text">
-                      I’m currently searching for spring 2021 and fall 2021 co-op internships-- so please
-                      reach out if you want to chat about an opportunity! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+                      At Berkeley, I'm majoring in Computer Science and Cognitive Science, minoring in
+                      Data Science and IEOR, and am also pursuing a certificate in Entrepreneurship & Technology!
+                      As you may be able to tell-- I have a wide range of interests in the applications of CS
+                      and am sure to translate my hands-on, learn-all approach to the workplace. :)
+                  </div>
+                  <div className="text">
+                      I’m currently searching for spring 2021 and fall 2021 co-op internships in UI/UX
+                      design or frontend engineering-- so please reach out if you want to chat about an
+                      opportunity! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
                   </div>
                   <div className="text-bold">
                       Email: isabellalau@berkeley.edu
