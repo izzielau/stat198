@@ -11,8 +11,8 @@ import Header from './Header.js'
 import Landing from './views/Landing/Landing';
 import Design from './views/Design/Design'
 import Software from './views/Software/Software'
-import OnLo from './views/case-studies/onlo/OnLo'
-import AFX from './views/case-studies/afx/afx'
+import Onlo from './views/Onlo/Onlo'
+import Dance from './views/Dance/Dance'
 
 import * as serviceWorker from './serviceWorker';
 
@@ -23,8 +23,8 @@ const routing = (
             <Route exact path="/" component={Landing} />
             <Route exact path="/design" component={Design} />
             <Route exact path="/software" component={Software} />
-            <Route exact path="/onlo" component={OnLo} />
-            <Route exact path="/afx" component={AFX} />
+            <Route exact path="/onlo" component={Onlo} />
+            <Route exact path="/afx" component={Dance} />
         </div>
     </Router>
 )

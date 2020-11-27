@@ -1,10 +1,10 @@
 import React from 'react';
 
-import NavigationButton from './../../../components/NavigationButton.js'
+import NavigationButton from './../../components/NavigationButton.js'
 
-import './OnLo.css'
+import './Onlo.css'
 
-function OnLo() {
+function Onlo() {
   return (
       <div className="onlo">
           <div className="title">
@@ -22,4 +22,4 @@ function OnLo() {
   );
 }
 
-export default OnLo;
+export default Onlo;

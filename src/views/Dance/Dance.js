@@ -1,20 +1,20 @@
 import React from 'react';
 
-import NavigationButton from './../../../components/NavigationButton.js'
+import NavigationButton from './../../components/NavigationButton.js'
 
-import './afx.css'
+import './Dance.css'
 
-import style from './../../../assets/design-style-afx.png'
-import workshop from './../../../assets/afx-demos/1.jpg'
-import amongus from './../../../assets/afx-demos/2.png'
-import tech from './../../../assets/afx-demos/3.png'
-import workshopad from './../../../assets/afx-demos/4.png'
-import apparel1 from './../../../assets/afx-demos/5.png'
-import apparel2 from './../../../assets/afx-demos/6.png'
-import apparel3 from './../../../assets/afx-demos/7.png'
-import apparel4 from './../../../assets/afx-demos/8.png'
+import style from './../../assets/design-style-afx.png'
+import workshop from './../../assets/afx-demos/1.jpg'
+import amongus from './../../assets/afx-demos/2.png'
+import tech from './../../assets/afx-demos/3.png'
+import workshopad from './../../assets/afx-demos/4.png'
+import apparel1 from './../../assets/afx-demos/5.png'
+import apparel2 from './../../assets/afx-demos/6.png'
+import apparel3 from './../../assets/afx-demos/7.png'
+import apparel4 from './../../assets/afx-demos/8.png'
 
-function AFX() {
+function Dance() {
   return (
       <div className="afx">
           <div className="title">
@@ -54,4 +54,4 @@ function AFX() {
   );
 }
 
-export default AFX;
+export default Dance;
