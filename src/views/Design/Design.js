@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import NavigationButton from './../../components/NavigationButton.js'
 import BackButton from './../../components/BackButton.js'
@@ -9,6 +10,7 @@ import './Design.css'
 
 import onlo from './../../assets/cover-onlo.png'
 import afx from './../../assets/afx-2020-large.png'
+import sigmas from './../../assets/sigmas-cover.png'
 
 function Design() {
   return (
@@ -21,26 +23,32 @@ function Design() {
               My main tools of choice are Figma and Adobe Illustrator.
           </div>
           <div className="carousel">
-              <a href="/onlo">
+              <Link to="/onlo">
                   <Polaroid
                       name="OnLo"
                       image=<img className="image" src={onlo} />
                       position="UI/UX Designer"
                       link="/onlo"
                   />
-              </a>
-              <a href="/dance">
+              </Link>
+              <Link to="/dance">
                   <Polaroid
                       name="AFX Dance"
                       image=<img className="image" src={afx} />
                       position="Chair of Design"
                       link="/dance"
                   />
-              </a>
+              </Link>
+              <Link to="/sigmas">
+                  <Polaroid
+                      name="Sigma Psi Zeta"
+                      image=<img className="image" src={sigmas} />
+                      position="Chair of Public Relations"
+                      link="/sigmas"
+                  />
+              </Link>
           </div>
       </div>
-
-
   );
 }
 

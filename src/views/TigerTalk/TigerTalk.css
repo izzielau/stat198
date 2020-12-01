@@ -1,0 +1,33 @@
+.tiger {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 150px;
+}
+
+.tiger .title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+}
+
+.tiger .subtitle {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 15px;
+}
