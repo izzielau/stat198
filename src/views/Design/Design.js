@@ -11,6 +11,7 @@ import './Design.css'
 import onlo from './../../assets/cover-onlo.png'
 import afx from './../../assets/afx-cover.png'
 import sigmas from './../../assets/sigmas-cover.png'
+import tigertalk from './../../assets/tigertalk-cover.png'
 
 function Design() {
   return (
@@ -40,6 +41,12 @@ function Design() {
                   image=<img className="image" src={sigmas} />
                   position="Chair of Public Relations"
                   link="/sigmas"
+              />
+              <Polaroid
+                  name="TigerTalk"
+                  image=<img className="image" src={tigertalk} />
+                  position="UI/UX Design Intern"
+                  link="/tigertalk"
               />
           </div>
       </div>

@@ -21,7 +21,7 @@ function Dance() {
               AFX
           </div>
           <div className="subtitle">
-              As the lead designer of AFX Dance, I led the creation of the summer and fall branding guide
+              As the design chair of AFX Dance, I led the creation of the summer and fall branding guide
               for the organization and used the guide to implement designs for the marketing team throughout the semester.
           </div>
           <div className="branding">
@@ -35,6 +35,10 @@ function Dance() {
               With this branding guide, I designed the following designs, apparel, and stickers for the organization.
               The materials have been viewed thousands of times on AFX's expansive reach of social media channels, including
               Instagram, YouTube, and Facebook.
+          </div>
+          <div className="text">
+              I've included a subset of examples below, with certain names, pictures, and details redacted to respect these
+              individuals' privacy:
           </div>
           <div className="carousel">
               <img className="image" src={apparel3} />

@@ -31,6 +31,19 @@
 
     color: #3E3E3E;
 
+    margin-bottom: 25px;
+}
+
+.afx .text {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
     margin-bottom: 50px;
 }
 
@@ -48,6 +61,7 @@
 
     color: #3E3E3E;
 
+    margin-top: 25px;
     margin-bottom: 25px;
 
 }

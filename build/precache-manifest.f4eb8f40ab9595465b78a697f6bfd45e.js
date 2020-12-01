@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75e28325874927d4adb19dd6709634f9",
+    "revision": "397488baa6aab90c99688307bb6aaba6",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47271137.chunk.css"
   },
   {
-    "revision": "51243ceeb4d49b39065d",
-    "url": "/static/css/main.2e51e3a2.chunk.css"
+    "revision": "656a50a04d16beac3ceb",
+    "url": "/static/css/main.c7337be9.chunk.css"
   },
   {
     "revision": "327e8f551ce2318a943a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0ed35e26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51243ceeb4d49b39065d",
-    "url": "/static/js/main.9b9a9377.chunk.js"
+    "revision": "656a50a04d16beac3ceb",
+    "url": "/static/js/main.df375b8a.chunk.js"
   },
   {
     "revision": "b925b43b2a2b991d28f9",
@@ -218,6 +218,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fcd2057683177b9963cc885671877081",
     "url": "/static/media/sigmas-cover.0b735209.png"
+  },
+  {
+    "revision": "c74e9a25ebb6cbdb6aa8176abed905f6",
+    "url": "/static/media/tigertalk-cover.efd89602.png"
   },
   {
     "revision": "76c5f23ff6547c1c085c3ce21926f09d",
