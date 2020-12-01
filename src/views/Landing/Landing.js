@@ -10,7 +10,7 @@ import gmail from './../../assets/gmail.png';
 
 function Landing() {
   return (
-      <div className="landing">
+      <div className="landing" id="snow">
           {/*
           <div className="introduction">
               <div className="title">
