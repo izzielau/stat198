@@ -9,6 +9,8 @@
     justify-content: flex-start;
 
     flex-direction: column;
+
+    background-color: #EEEEEE;
 }
 
 .landing .introduction {

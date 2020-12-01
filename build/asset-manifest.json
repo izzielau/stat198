@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.adbe14fa.chunk.css",
-    "main.js": "/static/js/main.29ebf4d8.chunk.js",
-    "main.js.map": "/static/js/main.29ebf4d8.chunk.js.map",
+    "main.css": "/static/css/main.af9acce8.chunk.css",
+    "main.js": "/static/js/main.8b301d35.chunk.js",
+    "main.js.map": "/static/js/main.8b301d35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58a66dfa.js",
     "runtime-main.js.map": "/static/js/runtime-main.58a66dfa.js.map",
     "static/css/2.47271137.chunk.css": "/static/css/2.47271137.chunk.css",
-    "static/js/2.26f56624.chunk.js": "/static/js/2.26f56624.chunk.js",
-    "static/js/2.26f56624.chunk.js.map": "/static/js/2.26f56624.chunk.js.map",
+    "static/js/2.24859449.chunk.js": "/static/js/2.24859449.chunk.js",
+    "static/js/2.24859449.chunk.js.map": "/static/js/2.24859449.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2eb1368d4596f3ebe64b4158cb6847cb.js": "/precache-manifest.2eb1368d4596f3ebe64b4158cb6847cb.js",
+    "precache-manifest.81ffde593b80eacbd8c83220e561f3db.js": "/precache-manifest.81ffde593b80eacbd8c83220e561f3db.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47271137.chunk.css.map": "/static/css/2.47271137.chunk.css.map",
-    "static/css/main.adbe14fa.chunk.css.map": "/static/css/main.adbe14fa.chunk.css.map",
-    "static/js/2.26f56624.chunk.js.LICENSE.txt": "/static/js/2.26f56624.chunk.js.LICENSE.txt",
+    "static/css/main.af9acce8.chunk.css.map": "/static/css/main.af9acce8.chunk.css.map",
+    "static/js/2.24859449.chunk.js.LICENSE.txt": "/static/js/2.24859449.chunk.js.LICENSE.txt",
     "static/media/1.ae3ceb8c.jpg": "/static/media/1.ae3ceb8c.jpg",
     "static/media/2.8628c111.png": "/static/media/2.8628c111.png",
     "static/media/3.c1e7204d.png": "/static/media/3.c1e7204d.png",
@@ -32,13 +32,14 @@
     "static/media/profile.914245b8.jpg": "/static/media/profile.914245b8.jpg",
     "static/media/resume-preview.ff9a1d68.png": "/static/media/resume-preview.ff9a1d68.png",
     "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/sigmas-cover.0b735209.png": "/static/media/sigmas-cover.0b735209.png",
     "static/media/view.e8ac1350.png": "/static/media/view.e8ac1350.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58a66dfa.js",
     "static/css/2.47271137.chunk.css",
-    "static/js/2.26f56624.chunk.js",
-    "static/css/main.adbe14fa.chunk.css",
-    "static/js/main.29ebf4d8.chunk.js"
+    "static/js/2.24859449.chunk.js",
+    "static/css/main.af9acce8.chunk.css",
+    "static/js/main.8b301d35.chunk.js"
   ]
 }

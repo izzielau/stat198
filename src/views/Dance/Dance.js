@@ -4,7 +4,7 @@ import NavigationButton from './../../components/NavigationButton.js'
 
 import './Dance.css'
 
-import style from './../../assets/design-style-afx.png'
+import style from './../../assets/design-guide-afx.png'
 import workshop from './../../assets/afx-demos/1.jpg'
 import amongus from './../../assets/afx-demos/2.png'
 import tech from './../../assets/afx-demos/3.png'

@@ -3,7 +3,7 @@
 
     display: flex;
     justify-content: flex-end;
-    background: none;
+    background: #DDDDDD;
 }
 
 .NavigationBar-Left {
