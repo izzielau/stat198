@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #EEEEEE;
+    background-color: #FFFFFF;
 }
 
 .design {
@@ -63,9 +63,24 @@
     height: 650px;
 
     transition: transform .5s;
+    filter: brightness(97.5%);
 }
 
 .software .carousel .pdf:hover {
     transform: scale(1.05);
-    filter: brightness(97.5%);
+    filter: brightness(90%);
+}
+
+.software .carousel .image {
+    object-fit: cover;
+
+    width: 110px;
+    height: 110px;
+
+    margin-bottom: 10px;
+}
+
+.software .carousel .polaroid-carousel {
+    display: flex;
+    flex-direction: row;
 }
