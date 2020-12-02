@@ -42,12 +42,14 @@ function Design() {
                   position="Chair of Public Relations"
                   link="/sigmas"
               />
+              {/*
               <Polaroid
                   name="TigerTalk"
                   image=<img className="image" src={tigertalk} />
                   position="UI/UX Design Intern"
                   link="/tigertalk"
               />
+              */}
           </div>
       </div>
   );
