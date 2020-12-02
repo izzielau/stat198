@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "397488baa6aab90c99688307bb6aaba6",
+    "revision": "4b9a729130759303c9519cb6ed0c359b",
     "url": "/index.html"
   },
   {
-    "revision": "327e8f551ce2318a943a",
+    "revision": "a96367ee579dc287c976",
     "url": "/static/css/2.47271137.chunk.css"
   },
   {
-    "revision": "656a50a04d16beac3ceb",
-    "url": "/static/css/main.c7337be9.chunk.css"
+    "revision": "cc6f760bfb4c2570d4f1",
+    "url": "/static/css/main.56db8d43.chunk.css"
   },
   {
-    "revision": "327e8f551ce2318a943a",
-    "url": "/static/js/2.0ed35e26.chunk.js"
+    "revision": "a96367ee579dc287c976",
+    "url": "/static/js/2.289a5a2a.chunk.js"
   },
   {
-    "revision": "38c8b4759ed1997e507345e5da03a3d4",
-    "url": "/static/js/2.0ed35e26.chunk.js.LICENSE.txt"
+    "revision": "5bf83d1c6bf997141df60ff39528f426",
+    "url": "/static/js/2.289a5a2a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "656a50a04d16beac3ceb",
-    "url": "/static/js/main.df375b8a.chunk.js"
+    "revision": "cc6f760bfb4c2570d4f1",
+    "url": "/static/js/main.4751fb81.chunk.js"
   },
   {
     "revision": "b925b43b2a2b991d28f9",
@@ -62,6 +62,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "48ca4e07fe2041e16bc51b55b9c6a66f",
     "url": "/static/media/afx-cover.06b80453.png"
+  },
+  {
+    "revision": "447953f6a71b05dedfa024ae13cfa5a7",
+    "url": "/static/media/bdab-cover.b3e8d79b.png"
+  },
+  {
+    "revision": "8687a5254e50cf641b0d99cfefca822f",
+    "url": "/static/media/bt-cover.29bf1abb.png"
   },
   {
     "revision": "94da40f73c0124267827e6f73d8d9153",
@@ -116,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.914245b8.jpg"
   },
   {
-    "revision": "bc625665ce3e53effc63997a30ea1774",
-    "url": "/static/media/resume-preview.ff9a1d68.png"
+    "revision": "b805eeafa6f1296c81e3b44005e590a9",
+    "url": "/static/media/resume-preview.18fffed6.png"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
@@ -214,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
     "url": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  {
+    "revision": "8487720dc5e3b728e1bafcf5a9b6d270",
+    "url": "/static/media/sc-cover.049ce919.png"
   },
   {
     "revision": "fcd2057683177b9963cc885671877081",

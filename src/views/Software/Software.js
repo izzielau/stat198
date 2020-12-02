@@ -22,10 +22,11 @@ function Software() {
         <div className="carousel">
             <div>
                 <div className="title">
-                    Resume
+                    Software
                 </div>
                 <div className="subtitle">
                     A record of the various software endeavors I've been able to explore.
+                    Here are some of my past and current projects:
                 </div>
                 <div className="polaroid-carousel">
                     <ExternalPolaroid
