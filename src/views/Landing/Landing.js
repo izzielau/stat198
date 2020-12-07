@@ -56,8 +56,8 @@ function Landing() {
                       and am sure to translate my hands-on, learn-all approach to the workplace. :)
                   </div>
                   <div className="text">
-                      I’m currently searching for fall 2021 co-op internships in UI/UX design or frontend
-                      engineering-- so please reach out if you want to chat about an opportunity! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+                      I’m currently searching for spring or fall 2021 co-op internships in UI/UX design, frontend
+                      engineering, data analytics, or machine learning-- so please reach out if you want to chat about an opportunity! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
                   </div>
                   <div className="text-bold">
                       Email: isabellalau@berkeley.edu

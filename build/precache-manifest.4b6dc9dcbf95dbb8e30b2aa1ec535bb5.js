@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "922aef965db687cb8558d5f24634463e",
+    "revision": "2eeabe68499981190c66fda90b4303ed",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47271137.chunk.css"
   },
   {
-    "revision": "c6137f794f98f012fb4b",
-    "url": "/static/css/main.0d264a70.chunk.css"
+    "revision": "951739c1b9dd55a23b69",
+    "url": "/static/css/main.3f9e5a33.chunk.css"
   },
   {
     "revision": "a9f290a1d07135aa5692",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e31dd6bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6137f794f98f012fb4b",
-    "url": "/static/js/main.920ec815.chunk.js"
+    "revision": "951739c1b9dd55a23b69",
+    "url": "/static/js/main.0d5b45a5.chunk.js"
   },
   {
     "revision": "b925b43b2a2b991d28f9",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/election.b10e1146.png"
   },
   {
-    "revision": "c745655636526e813f9dc35ea3b62e6d",
-    "url": "/static/media/genres.0ea90f59.png"
+    "revision": "199868bdbae043feea6443502c3be462",
+    "url": "/static/media/genres.4a409caa.png"
   },
   {
     "revision": "5f58b9ce448a37478888efc4eb8c31a4",
@@ -124,12 +124,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/minorboard.140c8c3e.png"
   },
   {
+    "revision": "766e68f0744a00f048f1954cb99d7610",
+    "url": "/static/media/popularity.e3a6074c.png"
+  },
+  {
     "revision": "dcd03a294612c9e4092997b1d5d5811b",
     "url": "/static/media/profile.914245b8.jpg"
   },
   {
     "revision": "b805eeafa6f1296c81e3b44005e590a9",
     "url": "/static/media/resume-preview.18fffed6.png"
+  },
+  {
+    "revision": "1e4ac305d5d4b37c2f4a28efac6b3f36",
+    "url": "/static/media/rhizome_roc.c2e33a7c.png"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
