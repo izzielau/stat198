@@ -15,6 +15,7 @@ class Header extends React.Component {
                   <NavigationButton link="/" text="Izzie Lau"/>
               </div>
               <div className="NavigationBar-Right">
+                  <NavigationButton className="button" link="/resume" text="Resume"/>
                   <NavigationButton className="button" link="/software" text="Software"/>
                   <NavigationButton className="button" link="/design" text="Design"/>
               </div>

@@ -12,16 +12,6 @@
     background-color: #FFFFFF;
 }
 
-.design {
-    height: 92.5vh;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-}
-
 .software .title {
     font-family: 'avenir';
     font-style: normal;
@@ -31,7 +21,6 @@
     color: #3E3E3E;
 
     margin-bottom: 25px;
-    margin-right: 100px;
 }
 
 .software .subtitle {
@@ -47,40 +36,16 @@
     margin-bottom: 50px;
 }
 
-.software .carousel {
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
-}
-
-.software .carousel .pdf {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    width: 500px;
-    height: 650px;
-
-    transition: transform .5s;
-    filter: brightness(97.5%);
-}
-
-.software .carousel .pdf:hover {
-    transform: scale(1.05);
-    filter: brightness(90%);
-}
-
-.software .carousel .image {
+.software .image {
     object-fit: cover;
 
-    width: 110px;
-    height: 110px;
+    width: 160px;
+    height: 160px;
 
     margin-bottom: 10px;
 }
 
-.software .carousel .polaroid-carousel {
+.software .polaroid-carousel {
     display: flex;
     flex-direction: row;
 }

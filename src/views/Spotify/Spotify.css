@@ -1,0 +1,71 @@
+.spotify {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 50px;
+}
+
+.backbutton {
+    position: fixed;
+    left: 150px;
+    margin-top: 0px;
+}
+
+.spotify .title {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+}
+
+.spotify .subtitle {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+
+}
+
+.spotify .image {
+    width: 600px;
+    object-fit: cover;
+
+    margin-bottom: 50px;
+}
+
+
+.spotify .text {
+    width: 600px;
+
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 25px;
+}
+
+.spotify .spacer {
+    height: 50px;
+}
