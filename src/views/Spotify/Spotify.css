@@ -1,6 +1,56 @@
-.spotify {
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic&subset=latin,latin-ext');
 
+.navigation-menu {
+    width: 250px;
+    height: 500px;
+    border-width: 1px;
+
+    position: fixed;
+    margin-top: 0px;
+    right: 100px;
+}
+
+.navigation-menu .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 50px;
+    margin-bottom: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    border-radius: 10px;
+
+    color: #6C6C6C;
+}
+
+.navigation-menu .row .text {
+    margin-right: 20px;
+}
+
+.navigation-menu .row:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 50px;
+    margin-bottom: 10px;
+
+    background: #E1E4EE;
+    color: #3E3E3E;
+}
+
+.backbutton {
+    position: fixed;
+    left: 100px;
+    margin-top: 0px;
+}
+
+.spotify {
     display: flex;
     flex-direction: column;
 
@@ -8,12 +58,6 @@
     justify-content: flex-start;
 
     margin-top: 50px;
-}
-
-.backbutton {
-    position: fixed;
-    left: 150px;
-    margin-top: 0px;
 }
 
 .spotify .title {
