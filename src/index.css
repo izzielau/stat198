@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@-moz-document url-prefix() {
+  .background {
+    background: radial-gradient(farthest-corner at 40px 40px,
+      #6076C4 0%, #C460A5 75%, #28235F 100% );
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

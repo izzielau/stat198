@@ -15,6 +15,7 @@ import btcover from "./../../assets/bt-cover.png";
 import sccover from "./../../assets/sc-cover.png";
 import bdabcover from "./../../assets/bdab-cover.png";
 import spotifycover from "./../../assets/spotify-cover.png";
+import bpdatacover from "./../../assets/bpdata-cover.png";
 
 import PDF from "react-pdf-js";
 
@@ -42,6 +43,12 @@ function Software() {
                         image=<img className="image" src={spotifycover}/>
                         position="Personal ML Project"
                         link="/spotify"
+                    />
+                    <Polaroid
+                        name="Blueprint Datathon"
+                        image=<img className="image" src={bpdatacover}/>
+                        position="[1st place]"
+                        link="/blueprint-datathon"
                     />
                 </div>
             </div>

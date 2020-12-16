@@ -16,6 +16,7 @@ import Sigmas from './views/Sigmas/Sigmas'
 import Onlo from './views/Onlo/Onlo'
 import Dance from './views/Dance/Dance'
 import TigerTalk from './views/TigerTalk/TigerTalk'
+import BlueprintDatathon from './views/BlueprintDatathon/BlueprintDatathon'
 
 import * as serviceWorker from './serviceWorker';
 import TagManager from 'react-gtm-module'
@@ -27,7 +28,7 @@ TagManager.initialize(tagManagerArgs)
 
 const routing = (
     <Router>
-        <div>
+        <div class="background">
             <Route exact path="/" component={Landing} />
             <Route path="/software" component={Software} />
             <Route path="/spotify" component={Spotify} />
@@ -37,6 +38,7 @@ const routing = (
             <Route path="/onlo" component={Onlo} />
             <Route path="/dance" component={Dance} />
             <Route path="/tigertalk" component={TigerTalk} />
+            <Route path="/blueprint-datathon" component={BlueprintDatathon} />
         </div>
     </Router>
 )

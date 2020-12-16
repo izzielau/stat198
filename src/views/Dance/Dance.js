@@ -41,7 +41,7 @@ function Dance() {
                       The materials have been viewed thousands of times on AFX's expansive reach of social media channels, including
                       Instagram, YouTube, and Facebook.
                   </div>
-                  <div className="text">
+                  <div className="subtitle">
                       I've included a subset of examples below, with certain names, pictures, and details redacted to respect these
                       individuals' privacy:
                   </div>

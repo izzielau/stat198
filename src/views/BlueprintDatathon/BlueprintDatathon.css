@@ -1,4 +1,4 @@
-.onlo {
+.bpdata {
     display: flex;
     flex-direction: column;
 
@@ -9,7 +9,7 @@
     background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
 }
 
-.onlo .glass {
+.bpdata .glass {
     height: 90vh;
     width: 95vw;
     background: rgba(255, 255, 255, 0.2);
@@ -17,7 +17,7 @@
     border-radius: 15px;
 }
 
-.onlo .glass .container {
+.bpdata .glass .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 150px;
 }
 
-.onlo .title {
+.bpdata .title {
     font-family: 'avenir';
     font-style: normal;
     font-weight: normal;
@@ -36,14 +36,14 @@
     margin-bottom: 25px;
 }
 
-.onlo .subtitle {
+.bpdata .subtitle {
     width: 600px;
 
     font-family: 'avenir';
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 18px;
+
     color: #FFFFFF;
 
     margin-bottom: 15px;
