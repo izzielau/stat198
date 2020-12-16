@@ -7,7 +7,6 @@ import { DefaultButton } from 'office-ui-fabric-react'
 import './index.css';
 import 'typeface-roboto'
 
-import Header from './Header.js'
 import Landing from './views/Landing/Landing';
 import Design from './views/Design/Design'
 import Software from './views/Software/Software'
@@ -19,11 +18,16 @@ import Dance from './views/Dance/Dance'
 import TigerTalk from './views/TigerTalk/TigerTalk'
 
 import * as serviceWorker from './serviceWorker';
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'G-29VY8EL103'
+}
+TagManager.initialize(tagManagerArgs)
 
 const routing = (
     <Router>
         <div>
-            <Header />
             <Route exact path="/" component={Landing} />
             <Route path="/software" component={Software} />
             <Route path="/spotify" component={Spotify} />

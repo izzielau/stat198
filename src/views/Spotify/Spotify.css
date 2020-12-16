@@ -1,63 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic&subset=latin,latin-ext');
 
-.navigation-menu {
+.spotify .glass .navigation-menu {
     width: 250px;
     height: 500px;
     border-width: 1px;
 
     position: fixed;
-    margin-top: 0px;
+    margin-top: 75px;
     right: 100px;
 }
 
-.navigation-menu .row {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    height: 50px;
-    margin-bottom: 10px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-
-    border-radius: 10px;
-
-    color: #6C6C6C;
-}
-
-.navigation-menu .row .text {
-    margin-right: 20px;
-}
-
-.navigation-menu .row:hover {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    height: 50px;
-    margin-bottom: 10px;
-
-    background: #E1E4EE;
-    color: #3E3E3E;
-}
-
-.backbutton {
-    position: fixed;
-    left: 100px;
-    margin-top: 0px;
-}
-
 .spotify {
+    height: 550vh;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
-    margin-top: 50px;
+    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
+}
+
+.spotify .glass {
+    height: 540vh;
+    width: 95vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+}
+
+.spotify .glass .container {
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .spotify .title {
@@ -66,7 +47,7 @@
     font-weight: normal;
     font-size: 64px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 }
@@ -83,7 +64,7 @@
     font-weight: bold;
     font-size: 24px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 
@@ -105,7 +86,7 @@
     font-weight: normal;
     font-size: 18px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 }

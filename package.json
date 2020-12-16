@@ -48,6 +48,7 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-google-login": "^5.1.20",
+    "react-gtm-module": "^2.0.11",
     "react-pdf": "^5.0.0",
     "react-pdf-js": "^5.1.0",
     "react-router-dom": "^5.2.0",

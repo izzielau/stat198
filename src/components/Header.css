@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    text-decoration: none;
+
+    height: 75px;
+}
+
+.header .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

@@ -1,19 +1,36 @@
+.dance {
+    height: 420vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
+}
+
+.dance .glass {
+    height: 410vh;
+    width: 95vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+}
+
 .backbutton {
     position: fixed;
     left: 150px;
-    margin-top: 0px;
+    margin-top: 75px;
 }
 
-.afx {
-    height: 200vh;
-
+.dance .glass .afx {
     display: flex;
     flex-direction: column;
 
     align-items: center;
     justify-content: flex-start;
 
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .afx .title {
@@ -22,7 +39,7 @@
     font-weight: normal;
     font-size: 64px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 }
@@ -35,7 +52,7 @@
     font-weight: normal;
     font-size: 18px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 }
@@ -48,7 +65,7 @@
     font-weight: normal;
     font-size: 18px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 50px;
 }
@@ -65,7 +82,7 @@
     font-weight: bold;
     font-size: 18px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-top: 25px;
     margin-bottom: 25px;
@@ -91,7 +108,7 @@
     font-weight: bold;
     font-size: 18px;
 
-    color: #3E3E3E;
+    color: #FFFFFF;
 
     margin-bottom: 25px;
 

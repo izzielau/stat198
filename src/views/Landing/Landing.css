@@ -1,50 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
 
 .landing {
-    height: 92.5vh;
+    height: 100vh;
 
     display: flex;
 
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    flex-direction: column;
-
-    background-color: #FFFFFF;
-}
-
-.landing .introduction {
-    height: 97.5vh;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 
-    margin-left: 150px;
+    flex-direction: column;
+
+    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
+    /* linear-gradient(360deg, #77A6D5 5.42%, rgba(46, 49, 145, 0.8) 85.88%); */
 }
 
-.landing .introduction .title {
-    font-family: 'avenir';
-    font-size: 64px;
-    color: #3E3E3E;
+.landing .glass {
+    align-items: center;
+    justify-content: center;
 
-    margin-bottom: 10px;
-}
-
-.landing .introduction .subtitle-bold {
-    font-family: 'avenir';
-    font-weight: bold;
-    font-size: 18px;
-    color: #3E3E3E;
-}
-
-.landing .introduction .subtitle {
-    font-family: 'avenir';
-    font-style: normal;
-    font-size: 18px;
-    color: #3E3E3E;
+    height: 90vh;
+    width: 95vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
 }
 
 .landing .about {
@@ -52,7 +30,7 @@
     align-items: center;
     flex-direction: row;
 
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 150px;
 }
 
@@ -73,19 +51,20 @@
 }
 
 .landing .about .descriptionContainer {
-    width: 50vw;
     height: 350px;
 
     display: flex;
     flex-direction: column;
 
     margin-left: 50px;
+    margin-right: 150px;
 }
 
 .landing .about .descriptionContainer .hey {
     font-family: 'avenir';
     font-size: 36px;
-    color: #3E3E3E;
+    font-weight: bold;
+    color: #FFFFFF;
 
     margin-bottom: 20px;
 }
@@ -93,23 +72,12 @@
 .landing .about .descriptionContainer .text {
     font-family: 'avenir';
     font-style: normal;
-    font-size: 16px;
+    font-size: 17px;
 
-    line-height: 24px;
-    margin-bottom: 24px;
+    line-height: 28px;
+    margin-bottom: 28px;
 
-    color: #3E3E3E;
-}
-
-.landing .about .descriptionContainer .text-bold {
-    font-family: 'avenir';
-    font-weight: bold;
-    font-size: 16px;
-
-    line-height: 24px;
-    margin-bottom: 24px;
-
-    color: #3E3E3E;
+    color: #FFFFFF;
 }
 
 .landing .about .descriptionContainer .contact {

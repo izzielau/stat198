@@ -1,9 +1,9 @@
 import React from 'react';
 
-import NavigationButton from './../../components/NavigationButton.js'
-import BackButton from './../../components/BackButton.js'
 import './Software.css';
 
+import Header from './../../components/Header.js'
+import BackButton from './../../components/BackButton.js'
 import Polaroid from './../../components/Polaroid.js'
 import ExternalPolaroid from './../../components/ExternalPolaroid.js'
 
@@ -20,28 +20,32 @@ import PDF from "react-pdf-js";
 
 function Software() {
   return (
-    <div className="software">
-        <div className="title">
-            Software
+    <div class="software">
+        <div class="glass">
+            <Header />
+            <div class="container">
+                <div class="title">
+                    Software
+                </div>
+                <div class="subtitle">
+                    A collection of projects involving web development, data analytics, and machine learning.
+                </div>
+                <div class="polaroid-carousel">
+                    <ExternalPolaroid
+                        name="sproul.club"
+                        image=<img className="image" src={sccover}/>
+                        position="Frontend Engineer"
+                        link="https://www.sproul.club/"
+                    />
+                    <Polaroid
+                        name="Spotify API"
+                        image=<img className="image" src={spotifycover}/>
+                        position="Personal ML Project"
+                        link="/spotify"
+                    />
+                </div>
+            </div>
         </div>
-        <div className="subtitle">
-            A record of the various software endeavors I am currently exploring.
-        </div>
-        <div className="polaroid-carousel">
-            <ExternalPolaroid
-                name="sproul.club"
-                image=<img className="image" src={sccover}/>
-                position="Frontend Engineer"
-                link="https://www.sproul.club/"
-            />
-            <Polaroid
-                name="Spotify API"
-                image=<img className="image" src={spotifycover}/>
-                position="Personal ML Project"
-                link="/spotify"
-            />
-        </div>
-        <div className="spacer" />
     </div>
   );
 }
