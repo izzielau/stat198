@@ -42,9 +42,13 @@
     font-family: 'avenir';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-
+    font-size: 17px;
+    line-height: 28px;
     color: #FFFFFF;
 
     margin-bottom: 15px;
+}
+
+.bpdata .spacer {
+    height: 25px;
 }

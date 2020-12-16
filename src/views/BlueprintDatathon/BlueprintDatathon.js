@@ -28,7 +28,8 @@ function BlueprintDatathon() {
                       some of the factors that have contributed to disparities in COVID-19 outcomes between
                       different segments of the American population.
                   </div>
-                  <Button link="https://docs.google.com/document/d/1iCqGNhU1Oj0aYsO2XA-2T8Nz2-pdnyTKIHlEieF3_IM/edit?usp=sharing" text="Research Paper"/>
+                  <div class="spacer" />
+                  <Button link="https://docs.google.com/document/d/1iCqGNhU1Oj0aYsO2XA-2T8Nz2-pdnyTKIHlEieF3_IM/edit?usp=sharing" text="Research Paper" />
               </div>
           </div>
       </div>

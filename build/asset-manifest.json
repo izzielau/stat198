@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c375a5b.chunk.css",
-    "main.js": "/static/js/main.973f0128.chunk.js",
-    "main.js.map": "/static/js/main.973f0128.chunk.js.map",
+    "main.css": "/static/css/main.2d68f1fe.chunk.css",
+    "main.js": "/static/js/main.0d13e894.chunk.js",
+    "main.js.map": "/static/js/main.0d13e894.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58a66dfa.js",
     "runtime-main.js.map": "/static/js/runtime-main.58a66dfa.js.map",
     "static/css/2.47271137.chunk.css": "/static/css/2.47271137.chunk.css",
-    "static/js/2.151a89d7.chunk.js": "/static/js/2.151a89d7.chunk.js",
-    "static/js/2.151a89d7.chunk.js.map": "/static/js/2.151a89d7.chunk.js.map",
+    "static/js/2.0a927373.chunk.js": "/static/js/2.0a927373.chunk.js",
+    "static/js/2.0a927373.chunk.js.map": "/static/js/2.0a927373.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c85571619bf3ee82a3280f71c576bd2.js": "/precache-manifest.6c85571619bf3ee82a3280f71c576bd2.js",
+    "precache-manifest.ef9234a1f036ffc3a2cd19d434a679ed.js": "/precache-manifest.ef9234a1f036ffc3a2cd19d434a679ed.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47271137.chunk.css.map": "/static/css/2.47271137.chunk.css.map",
-    "static/css/main.9c375a5b.chunk.css.map": "/static/css/main.9c375a5b.chunk.css.map",
-    "static/js/2.151a89d7.chunk.js.LICENSE.txt": "/static/js/2.151a89d7.chunk.js.LICENSE.txt",
+    "static/css/main.2d68f1fe.chunk.css.map": "/static/css/main.2d68f1fe.chunk.css.map",
+    "static/js/2.0a927373.chunk.js.LICENSE.txt": "/static/js/2.0a927373.chunk.js.LICENSE.txt",
     "static/media/1.ae3ceb8c.jpg": "/static/media/1.ae3ceb8c.jpg",
     "static/media/2.8628c111.png": "/static/media/2.8628c111.png",
     "static/media/3.c1e7204d.png": "/static/media/3.c1e7204d.png",
@@ -24,6 +24,7 @@
     "static/media/8.5443d821.png": "/static/media/8.5443d821.png",
     "static/media/afx-cover.06b80453.png": "/static/media/afx-cover.06b80453.png",
     "static/media/bdab-cover.56cf39c5.png": "/static/media/bdab-cover.56cf39c5.png",
+    "static/media/bpdata-cover.2f339343.png": "/static/media/bpdata-cover.2f339343.png",
     "static/media/bt-cover.d74031df.png": "/static/media/bt-cover.d74031df.png",
     "static/media/cover-onlo.b200e2ab.png": "/static/media/cover-onlo.b200e2ab.png",
     "static/media/design-guide-afx.0c92fb8b.png": "/static/media/design-guide-afx.0c92fb8b.png",
@@ -45,15 +46,15 @@
     "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2",
     "static/media/sc-cover.87ddc5ef.png": "/static/media/sc-cover.87ddc5ef.png",
     "static/media/sigmas-cover.0b735209.png": "/static/media/sigmas-cover.0b735209.png",
-    "static/media/spotify-cover.12dacb18.png": "/static/media/spotify-cover.12dacb18.png",
+    "static/media/spotify-cover.d9d112bb.png": "/static/media/spotify-cover.d9d112bb.png",
     "static/media/tigertalk-cover.efd89602.png": "/static/media/tigertalk-cover.efd89602.png",
     "static/media/view.e8ac1350.png": "/static/media/view.e8ac1350.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58a66dfa.js",
     "static/css/2.47271137.chunk.css",
-    "static/js/2.151a89d7.chunk.js",
-    "static/css/main.9c375a5b.chunk.css",
-    "static/js/main.973f0128.chunk.js"
+    "static/js/2.0a927373.chunk.js",
+    "static/css/main.2d68f1fe.chunk.css",
+    "static/js/main.0d13e894.chunk.js"
   ]
 }
