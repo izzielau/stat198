@@ -39,9 +39,9 @@ function Landing() {
                           and am sure to translate my <b>hands-on, learn-all approach</b> to the workplace. :)
                       </div>
                       <div className="text">
-                          I’m currently searching for spring or fall 2021 <b>co-op internships</b> in UI/UX design, frontend
-                          engineering, data analytics, or machine learning-- so please reach out if you want to chat
-                          about an opportunity! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+                          I’m currently searching for <b>internships</b> in UI/UX design, frontend engineering, data
+                          analytics, or machine learning-- so please reach out if you want to chat about an opportunity!
+                          (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
                       </div>
                       <div className="contact">
                           <div className="circle">
