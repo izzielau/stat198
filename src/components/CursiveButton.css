@@ -1,0 +1,43 @@
+.cursive {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 150px;
+
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #FFFFFF;
+
+    background: none;
+    border-radius: 15px;
+
+    margin-left: 25px;
+}
+
+.cursive:hover {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    text-decoration: none;
+
+    height: 50px;
+    width: 150px;
+
+    color: #CCCCCC;
+
+    border-radius: 15px;
+
+    margin-left: 25px;
+}

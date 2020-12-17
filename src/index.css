@@ -13,20 +13,3 @@ body {
       #6076C4 0%, #C460A5 75%, #28235F 100% );
   }
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.NavigationBar {
-    height: 7.5vh;
-
-    display: flex;
-    justify-content: flex-end;
-    background: #92ABEA;
-}
-
-.Button {
-    align: space-around;
-}

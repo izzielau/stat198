@@ -15,9 +15,6 @@
 }
 
 .landing .glass {
-    align-items: center;
-    justify-content: center;
-
     height: 90vh;
     width: 95vw;
     background: rgba(255, 255, 255, 0.2);
@@ -80,21 +77,25 @@
     color: #FFFFFF;
 }
 
-.landing .about .descriptionContainer .contact {
+.landing .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    position: fixed;
+    top: 175px;
+    left: 85px;
 }
 
-.landing .about .descriptionContainer .contact .circle {
+.landing .contact .circle {
     margin-right: 10px;
 
     transition: transform .35s;
 }
 
-.landing .about .descriptionContainer .contact .circle:hover {
+.landing .contact .circle:hover {
     transform: scale(1.15);
 }
 
-.landing .about .descriptionContainer .contact .logo {
-    width: 50px;
+.landing .contact .logo {
+    width: 65px;
 }

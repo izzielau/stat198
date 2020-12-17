@@ -43,36 +43,37 @@ function Landing() {
                           analytics, or machine learning-- so please reach out if you want to chat about an opportunity!
                           (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
                       </div>
-                      <div className="contact">
-                          <div className="circle">
-                              <a target="_blank" href="https://www.linkedin.com/in/izzielau/">
-                                  <img
-                                      src={linkedin}
-                                      className="logo"
-                                      alt="linkedin"
-                                  />
-                              </a>
-                          </div>
-                          <div className="circle">
-                              <a target="_blank" href="https://www.github.com/izzielau/">
-                                  <img
-                                      src={github}
-                                      className="logo"
-                                      alt="github"
-                                  />
-                              </a>
-                          </div>
-                          <div className="circle">
-                              <a target="_blank" href="mailto:isabellalau@berkeley.edu">
-                                  <img
-                                      src={gmail}
-                                      className="logo"
-                                      alt="github"
-                                  />
-                              </a>
-                          </div>
-                      </div>
+
                   </div>
+              </div>
+          </div>
+          <div className="contact">
+              <div className="circle">
+                  <a target="_blank" href="https://www.linkedin.com/in/izzielau/">
+                      <img
+                          src={linkedin}
+                          className="logo"
+                          alt="linkedin"
+                      />
+                  </a>
+              </div>
+              <div className="circle">
+                  <a target="_blank" href="https://www.github.com/izzielau/">
+                      <img
+                          src={github}
+                          className="logo"
+                          alt="github"
+                      />
+                  </a>
+              </div>
+              <div className="circle">
+                  <a target="_blank" href="mailto:isabellalau@berkeley.edu">
+                      <img
+                          src={gmail}
+                          className="logo"
+                          alt="github"
+                      />
+                  </a>
               </div>
           </div>
       </div>

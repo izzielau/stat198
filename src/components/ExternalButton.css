@@ -1,0 +1,43 @@
+.external-button {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 200px;
+
+    text-decoration: none;
+    font-family: 'avenir';
+    font-weight: bold;
+
+    color: #3E3E3E;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+
+    margin-right: 25px;
+}
+
+.external-button:hover {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'avenir';
+    font-weight: bold;
+    text-decoration: none;
+
+    height: 50px;
+    width: 150px;
+
+    color: #000000;
+
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+
+    margin-right: 25px;
+}
