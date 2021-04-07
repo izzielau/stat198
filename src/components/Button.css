@@ -5,16 +5,21 @@
     align-items: center;
     justify-content: center;
 
-    height: 50px;
-    width: 150px;
+    height: 3.125em;
+    width: 9.375em;
 
-    text-decoration: none;
-    font-family: 'avenir';
+    font-family: "lato";
+    font-style: normal;
     font-weight: bold;
+    font-size: 0.875em;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    color: #3E3E3E;
+    color: #000000;
 
-    background: rgba(255, 255, 255, 0.8);
+    background: transparent;
     border-radius: 15px;
 
     margin-right: 25px;
@@ -27,16 +32,21 @@
     align-items: center;
     justify-content: center;
 
-    font-family: 'avenir';
+    font-family: "lato";
+    font-style: normal;
     font-weight: bold;
-    text-decoration: none;
-
-    height: 50px;
-    width: 150px;
+    font-size: .875em;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    height: 3.125em;
+    width: 9.375em;
 
     color: #000000;
 
-    background: rgba(255, 255, 255, 0.4);
+    background: #ffffff;
     border-radius: 15px;
 
     margin-right: 25px;

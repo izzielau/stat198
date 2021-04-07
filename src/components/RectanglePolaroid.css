@@ -1,0 +1,65 @@
+.rectangle-polaroid {
+  height: 12.5em;
+  width: 15.625em;
+
+  background: transparent;
+  box-shadow: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.05));
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  transition: transform .3s;
+
+}
+
+.rectangle-polaroid:hover {
+  filter: brightness(65%);
+}
+
+.rectangle-polaroid .imageContainer {
+  
+}
+
+.rectangle-polaroid .imageContainer .image {
+  height: 9.375em;
+  width: 250px;
+  object-fit: fill;
+}
+
+.rectangle-polaroid .big-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: #000000;
+}
+
+.rectangle-polaroid .small-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875em;
+  color: #000000;
+}
+
+.rectangle-polaroid .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  height: 12.5em - 9.375em;
+  width: 250px;
+  object-fit: contain;
+}

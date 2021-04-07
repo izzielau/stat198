@@ -8,94 +8,53 @@
     align-items: center;
     justify-content: center;
 
-    flex-direction: column;
-
-    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
-    /* linear-gradient(360deg, #77A6D5 5.42%, rgba(46, 49, 145, 0.8) 85.88%); */
-}
-
-.landing .glass {
-    height: 90vh;
-    width: 95vw;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px);
-    border-radius: 15px;
-}
-
-.landing .about {
-    display: flex;
-    align-items: center;
     flex-direction: row;
 
-    margin-top: 50px;
-    margin-left: 150px;
+    background-image: url('./../../assets/background.png');
+    background-size: cover;
 }
 
-.landing .about .imageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 350px;
-    height: 350px;
-}
-
-.landing .about .image {
-    margin-top: 130px;
-
-    object-fit: cover;
-    width: 350px;
-}
-
-.landing .about .descriptionContainer {
-    height: 350px;
+.landing .text-container {
+    width: 40vw; 
 
     display: flex;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
     flex-direction: column;
-
-    margin-left: 50px;
-    margin-right: 150px;
 }
 
-.landing .about .descriptionContainer .hey {
-    font-family: 'avenir';
-    font-size: 36px;
-    font-weight: bold;
-    color: #FFFFFF;
-
-    margin-bottom: 20px;
-}
-
-.landing .about .descriptionContainer .text {
-    font-family: 'avenir';
+.landing .text-container .small-text {
+    font-family: "Lato";
     font-style: normal;
-    font-size: 17px;
-
-    line-height: 28px;
-    margin-bottom: 28px;
-
-    color: #FFFFFF;
-}
-
-.landing .contact {
+    font-weight: 800;
+    font-size: 0.875em;
     display: flex;
+
+    color: #000000;
+}
+
+.landing .text-container .big-text {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.25em;
+    
+    color: #000000;
+
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+}
+
+
+.landing .button-container {
+    width: 30vw; 
+    
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+
     flex-direction: column;
-
-    position: fixed;
-    top: 175px;
-    left: 85px;
-}
-
-.landing .contact .circle {
-    margin-right: 10px;
-
-    transition: transform .35s;
-}
-
-.landing .contact .circle:hover {
-    transform: scale(1.15);
-}
-
-.landing .contact .logo {
-    width: 65px;
 }

@@ -6,16 +6,23 @@ import { DefaultButton } from 'office-ui-fabric-react'
 
 import './index.css';
 import 'typeface-roboto'
+import 'typeface-lato'
 
-import Landing from './views/Landing/Landing';
-import Design from './views/Design/Design'
-import Software from './views/Software/Software'
-import Spotify from './views/Spotify/Spotify'
+import Header from './components/Header';
+import Landing from './views/landing/Landing';
+import About from './views/about/About';
+import Software from './views/software/Software'
+import Design from './views/design/Design'
+import Sproul from './views/sproul/Sproul'
+import Onlo from './views/onlo/Onlo'
+import Blueprint from './views/blueprint/Blueprint';
+import Spotify from './views/spotify/Spotify'
+
 import Resume from './views/Resume/Resume'
 import Sigmas from './views/Sigmas/Sigmas'
-import Onlo from './views/Onlo/Onlo'
+import WebDev from './views/WebDev/WebDev'
 import Dance from './views/Dance/Dance'
-import TigerTalk from './views/TigerTalk/TigerTalk'
+import TigerTalk from './views/tigertalk/TigerTalk'
 import BlueprintDatathon from './views/BlueprintDatathon/BlueprintDatathon'
 
 import * as serviceWorker from './serviceWorker';
@@ -27,20 +34,28 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs)
 
 const routing = (
-    <Router>
-        <div class="background">
-            <Route exact path="/" component={Landing} />
-            <Route path="/software" component={Software} />
-            <Route path="/spotify" component={Spotify} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/design" component={Design} />
-            <Route path="/sigmas" component={Sigmas} />
-            <Route path="/onlo" component={Onlo} />
-            <Route path="/dance" component={Dance} />
-            <Route path="/tigertalk" component={TigerTalk} />
-            <Route path="/blueprint-datathon" component={BlueprintDatathon} />
-        </div>
-    </Router>
+    <div>
+        <Router>
+            <Header />
+            <div class="background">
+                <Route exact path="/" component={Landing} />
+                <Route exact path="/about" component={About} />
+                <Route path="/software" component={Software} />
+                <Route path="/design" component={Design} />
+                <Route path="/sproul" component={Sproul} />
+                <Route path="/tigertalk" component={TigerTalk} />
+                <Route path="/onlo" component={Onlo} />
+                <Route path="/datathon" component={Blueprint} />
+
+                <Route path="/spotify" component={Spotify} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/sigmas" component={Sigmas} />
+                <Route path="/web-development" component={WebDev} />
+                <Route path="/dance" component={Dance} />
+                <Route path="/datathon" component={BlueprintDatathon} />
+            </div>
+        </Router>
+    </div>
 )
 ReactDOM.render(routing, document.getElementById('root'))
 

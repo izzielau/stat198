@@ -1,0 +1,54 @@
+.landing-button {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 3.125em;
+    width: 15.625em;
+
+    text-decoration: none;
+    font-family: 'lato';
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+    background: #2898FF;
+    border-radius: 15px;
+
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.landing-button:hover {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 3.125em;
+    width: 15.625em;
+
+    text-decoration: none;
+    font-family: 'lato';
+    font-weight: bold;
+
+    background: #0c5aa3;
+    border-radius: 15px;
+
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.landing-button .highlighted-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875em;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

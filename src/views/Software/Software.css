@@ -4,62 +4,63 @@
     height: 100vh;
 
     display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
     flex-direction: column;
+
+    background-image: url('./../../assets/background.png');
+    background-size: cover;
+}
+
+.software .text-container {
+    display: flex;
+
     align-items: center;
     justify-content: center;
-
-    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
-}
-
-.software .glass {
-    height: 90vh;
-    width: 95vw;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px);
-    border-radius: 15px;
-}
-
-.software .glass .container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
 
-    margin-top: 75px;
+    margin-top: 10%;
 }
 
-.software .glass .container .title {
-    font-family: 'avenir';
+.software .text-container .small-text {
+    font-family: "Lato";
     font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-
-    color: #FFFFFF;
-
-    margin-bottom: 25px;
-}
-
-.software .glass .container .subtitle {
-    width: 600px;
-
-    font-family: 'avenir';
-    font-style: normal;
-    font-size: 17px;
-    line-height: 28px;
-    color: #FFFFFF;
-
-    margin-bottom: 50px;
-}
-
-.software .glass .container .image {
-    object-fit: cover;
-
-    width: 160px;
-    height: 160px;
-
-    margin-bottom: 10px;
-}
-
-.software .glass .container .polaroid-carousel {
+    font-weight: 800;
+    font-size: 0.875em;
     display: flex;
+
+    color: #000000;
+}
+
+.software .text-container .big-text {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.25em;
+    
+    color: #000000;
+
+    margin-top: 0.3125em;
+    margin-bottom: 1.5em;
+}
+
+
+.software .links-container {
+    width: 30vw; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.software .links-container .row {
+    width: 80vw; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
 }

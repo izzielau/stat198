@@ -20,7 +20,7 @@
 .backbutton {
     position: fixed;
     left: 150px;
-    margin-top: 75px;
+    margin-top: 160px;
 }
 
 .dance .glass .afx {
@@ -55,19 +55,6 @@
     color: #FFFFFF;
 
     margin-bottom: 25px;
-}
-
-.afx .text {
-    width: 600px;
-
-    font-family: 'avenir';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-
-    color: #FFFFFF;
-
-    margin-bottom: 50px;
 }
 
 .afx .branding {

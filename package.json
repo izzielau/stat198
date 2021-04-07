@@ -42,6 +42,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "file-loader": "^6.0.0",
+    "import": "0.0.6",
     "material-ui-search-bar": "^0.4.2",
     "office-ui-fabric-react": "^7.121.9",
     "react": "^16.13.1",
@@ -53,6 +54,7 @@
     "react-pdf-js": "^5.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "typeface-lato": "^1.1.13",
     "typeface-roboto": "0.0.75"
   },
   "eslintConfig": {

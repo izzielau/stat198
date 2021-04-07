@@ -9,10 +9,10 @@ const Header = () => {
     return (
         <div className="header">
             <div class="left">
-                <CursiveButton text="Izzie Lau" link="/"/>
+                <Button text="Home" link="/"/>
             </div>
             <div class="right">
-                <Button text="Resume" link="/resume"/>
+                <Button text="About" link="/about"/>
                 <Button text="Software" link="/software"/>
                 <Button text="Design" link="/design"/>
             </div>

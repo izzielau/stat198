@@ -2,55 +2,32 @@ import React from 'react';
 
 import './Software.css';
 
-import Header from './../../components/Header.js'
-import BackButton from './../../components/BackButton.js'
-import Polaroid from './../../components/Polaroid.js'
-import ExternalPolaroid from './../../components/ExternalPolaroid.js'
-
-import resume from "./../../assets/resume-preview.png";
-import view from "./../../assets/view.png";
-import download from "./../../assets/download.png";
-
 import btcover from "./../../assets/bt-cover.png";
-import sccover from "./../../assets/sc-cover.png";
+import sccover from "./../../assets/sproul@2x.png";
 import bdabcover from "./../../assets/bdab-cover.png";
-import spotifycover from "./../../assets/spotify-cover.png";
-import bpdatacover from "./../../assets/bpdata-cover.png";
+import spotifycover from "./../../assets/spotify@2x.png";
+import bpdatacover from "./../../assets/datathon@2x.png";
 
-import PDF from "react-pdf-js";
+import RectanglePolaroid from './../../components/RectanglePolaroid'
+import RectangleExternalPolaroid from './../../components/RectangleExternalPolaroid'
 
 function Software() {
+    var blue = <img className="image" src={blue}></img>
+    var sproul = <img className="image" src={sccover}></img>
+    var spotify = <img className="image" src={spotifycover}></img>
+    var datathon = <img className="image" src={bpdatacover}></img>
+  
   return (
     <div class="software">
-        <div class="glass">
-            <Header />
-            <div class="container">
-                <div class="title">
-                    Software
-                </div>
-                <div class="subtitle">
-                    A collection of projects involving web development, data analytics, and machine learning.
-                </div>
-                <div class="polaroid-carousel">
-                    <ExternalPolaroid
-                        name="sproul.club"
-                        image=<img className="image" src={sccover}/>
-                        position="Frontend Engineer"
-                        link="https://www.sproul.club/"
-                    />
-                    <Polaroid
-                        name="Spotify API"
-                        image=<img className="image" src={spotifycover}/>
-                        position="Personal ML Project"
-                        link="/spotify"
-                    />
-                    <Polaroid
-                        name="Blueprint Datathon"
-                        image=<img className="image" src={bpdatacover}/>
-                        position="[1st place]"
-                        link="/blueprint-datathon"
-                    />
-                </div>
+        <div class="text-container">
+            <text class="big-text">software</text>
+            <text class="small-text"></text>
+        </div>
+        <div class="links-container">
+            <div class="row">
+                <RectangleExternalPolaroid title="frontend engineer" subtitle="volunteer for sproul.club" image={sproul} link="https://sproul.club"> </RectangleExternalPolaroid>
+                <RectanglePolaroid title="machine learning self-project" subtitle="built using spotify api data" image={spotify} link="/spotify"> </RectanglePolaroid>
+                <RectanglePolaroid title="blueprint datathon [1st place]" subtitle="performing covid-19 research" image={datathon} link="/datathon"> </RectanglePolaroid>
             </div>
         </div>
     </div>

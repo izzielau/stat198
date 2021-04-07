@@ -1,22 +1,30 @@
 .header {
+    position: absolute;
+
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 
     text-decoration: none;
 
     height: 75px;
+    width: 100vw;
 }
 
 .header .left {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
+    margin-left: 50px;
 }
 
 .header .right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
+    margin-right: 50px;
+
 }

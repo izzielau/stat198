@@ -7,7 +7,7 @@ const Button = ({ text, link }) => {
     return(
         <div>
             <Link to={link} style={{ textDecoration: 'none' }}>
-                <div className="button">
+                <div className="button" >
                     {text}
                 </div>
             </Link>

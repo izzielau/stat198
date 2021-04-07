@@ -1,50 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+
 .onlo {
+    height: 100vh;
+
     display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
     flex-direction: column;
 
+    background-image: url('./../../assets/background.png');
+    background-size: cover;
+}
+
+
+.onlo .text-container {
+    width: 50vw;
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    height: 100vh;
-    background: conic-gradient(from 212.41deg at 1.46% 106.22%, #28235F 0deg, #28235F 134.54deg, #6076C4 169.44deg, #C460A5 219.39deg, #28235F 360deg);
+    margin-top: 10%;
 }
 
-.onlo .glass {
-    height: 90vh;
-    width: 95vw;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px);
-    border-radius: 15px;
-}
-
-.onlo .glass .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 150px;
-}
-
-.onlo .title {
-    font-family: 'avenir';
+.onlo .text-container .small-text {
+    font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-
-    color: #FFFFFF;
-
-    margin-bottom: 25px;
-}
-
-.onlo .subtitle {
-    width: 600px;
-
-    font-family: 'avenir';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 28px;
-    color: #FFFFFF;
+    font-size: 0.875em;
+    line-height: 150%;
+    color: #000000;
 
     margin-bottom: 15px;
+}
+
+.onlo .text-container .big-text {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.25em;
+    
+    color: #000000;
+
+    margin-top: 0.3125em;
+    margin-bottom: 1.5em;
+}
+
+
+.onlo .links-container {
+    width: 30vw; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.onlo .links-container .row {
+    width: 80vw; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-bottom: 0.875em;
+}
+
+.onlo .text-container .spacer {
+    height: 15px;
 }

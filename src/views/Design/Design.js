@@ -1,60 +1,41 @@
 import React from 'react';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
-import BackButton from './../../components/BackButton.js'
+import './Design.css';
 
-import Polaroid from './../../components/Polaroid.js'
-import Header from './../../components/Header.js'
+import tigertalkcover from './../../assets/tigertalk@2x.png';
+import sproulcover from './../../assets/sproul@2x.png';
+import onlocover from './../../assets/onlo@2x.png';
+import blue from './../../assets/blue.png';
 
-import './Design.css'
-
-import onlo from './../../assets/cover-onlo.png'
-import afx from './../../assets/afx-cover.png'
-import sigmas from './../../assets/sigmas-cover.png'
-import tigertalk from './../../assets/tigertalk-cover.png'
+import RectanglePolaroid from './../../components/RectanglePolaroid';
+import RectangleExternalPolaroid from '../../components/RectangleExternalPolaroid';
 
 function Design() {
-  return (
-      <div class="design">
-          <div class="glass">
-              <Header />
-              <div class="container">
-                  <div className="title">
-                      Design
-                  </div>
-                  <div className="subtitle">
-                      Here is a selection of UI/UX projects and graphic designs that I’ve worked on.
-                      My main tools of choice are Figma and Adobe Illustrator.
-                  </div>
-                  <div className="carousel">
-                      <Polaroid
-                          name="TigerTalk"
-                          image=<img className="image" src={tigertalk} />
-                          position="UI/UX Intern"
-                          link="/tigertalk"
-                      />
-                      <Polaroid
-                          name="Sigma Psi Zeta"
-                          image=<img className="image" src={sigmas} />
-                          position="Chair of Public Relations"
-                          link="/sigmas"
-                      />
-                      <Polaroid
-                          name="OnLo"
-                          image=<img className="image" src={onlo} />
-                          position="UI/UX Designer"
-                          link="/onlo"
-                      />
-                      <Polaroid
-                          name="AFX Dance"
-                          image=<img className="image" src={afx} />
-                          position="Chair of Design"
-                          link="/dance"
-                      />
-                  </div>
-              </div>
-          </div>
-      </div>
+    var tigertalk = <img class="image" src={tigertalkcover}></img>;
+    var sproul = <img class="image" src={sproulcover}></img>;
+    var onlo = <img class="image" src={onlocover}></img>;
+
+    return (
+    <div class="design">
+        <div class="text-container">
+            <text class="big-text">design</text>
+            <text class="small-text"></text>
+        </div>
+        <div class="links-container">
+            <div class="row">
+                <RectanglePolaroid title="ui/ux intern" subtitle="tigertalk" link="/tigertalk" image={tigertalk}> </RectanglePolaroid>
+                <RectanglePolaroid title="product designer" subtitle="sproul.club" link="/sproul" image={sproul}> </RectanglePolaroid>
+                <RectanglePolaroid title="ui/ux designer" subtitle="onlo" link="/onlo" image={onlo}> </RectanglePolaroid>
+            </div>
+            {/* 
+            <div class="row">
+                <RectanglePolaroid title="marketing director" subtitle="sigma psi zeta" link="/sigmas"> </RectanglePolaroid>
+                <RectanglePolaroid title="chair of design" subtitle="afx dance" link="/dance"> </RectanglePolaroid>
+                <RectanglePolaroid title="marketing director" subtitle="web development at berkeley" link="/wdb"> </RectanglePolaroid>
+            </div>
+            */}
+        </div>
+    </div>
   );
 }
 
