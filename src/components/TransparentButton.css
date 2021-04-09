@@ -1,43 +1,53 @@
-.homebutton {
+.button {
     display: flex;
     flex-direction: row;
 
     align-items: center;
     justify-content: center;
 
-    height: 50px;
-    width: 150px;
+    height: 3.125em;
+    width: 9.375em;
 
-    text-decoration: none;
-    font-family: 'avenir';
+    font-family: "lato";
+    font-style: normal;
     font-weight: bold;
+    font-size: 0.875em;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 
-    background: none;
+    background: transparent;
     border-radius: 15px;
 
-    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.homebutton:hover {
+.button:hover {
     display: flex;
     flex-direction: row;
 
     align-items: center;
     justify-content: center;
 
-    font-family: 'avenir';
+    font-family: "lato";
+    font-style: normal;
     font-weight: bold;
-    text-decoration: none;
+    font-size: .875em;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    height: 3.125em;
+    width: 9.375em;
 
-    height: 50px;
-    width: 150px;
+    color: #000000;
 
-    color: #CCCCCC;
-
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
     border-radius: 15px;
 
-    margin-left: 25px;
+    margin-right: 25px;
 }

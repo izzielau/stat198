@@ -31,7 +31,7 @@
   object-fit: fill;
 }
 
-.rectangle-polaroid .big-text {
+.rectangle-polaroid .textContainer .big-text {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -46,7 +46,7 @@
   color: #000000;
 }
 
-.rectangle-polaroid .small-text {
+.rectangle-polaroid .textContainer .small-text {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;

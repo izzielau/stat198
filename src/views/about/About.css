@@ -1,18 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
 
 .about {
-    height: 100vh;
+    height: 150vh;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: row;
 
     background-image: url('./../../assets/background.png');
+    background-size: cover;
 }
 
 .about .text-container {
-    width: 35vw; 
+    margin-top: 10%;
+    width: 45vw; 
 
     display: flex;
     align-items: flex-start;
@@ -21,6 +23,11 @@
 
     margin-right: 10%;
 }
+
+.about .text-container .spacer {
+    height: 25px;
+}
+
 
 .about .small-text {
     font-family: Lato;
@@ -73,11 +80,12 @@
 }
 
 .about .button-container {
-    width: 30vw; 
+    margin-top: 10%;
+    width: 25vw; 
 
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 

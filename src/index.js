@@ -20,10 +20,8 @@ import Spotify from './views/spotify/Spotify'
 
 import Resume from './views/Resume/Resume'
 import Sigmas from './views/Sigmas/Sigmas'
-import WebDev from './views/WebDev/WebDev'
 import Dance from './views/Dance/Dance'
 import TigerTalk from './views/tigertalk/TigerTalk'
-import BlueprintDatathon from './views/BlueprintDatathon/BlueprintDatathon'
 
 import * as serviceWorker from './serviceWorker';
 import TagManager from 'react-gtm-module'
@@ -50,9 +48,7 @@ const routing = (
                 <Route path="/spotify" component={Spotify} />
                 <Route path="/resume" component={Resume} />
                 <Route path="/sigmas" component={Sigmas} />
-                <Route path="/web-development" component={WebDev} />
                 <Route path="/dance" component={Dance} />
-                <Route path="/datathon" component={BlueprintDatathon} />
             </div>
         </Router>
     </div>

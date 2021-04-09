@@ -6,7 +6,7 @@ const TransparentButton = ({ text, link }) => {
     return(
         <div>
             <a rel="noopener noreferrer" href={link} style={{ textDecoration: 'none' }}>
-                <div className="homebutton">
+                <div className="button">
                     {text}
                 </div>
             </a>

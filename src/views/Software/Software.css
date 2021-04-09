@@ -1,7 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
 
+.open-all {
+    position: absolute;
+    margin-top: 37.8%;
+    margin-left: 40%;
+}
+
+.close-all {
+    position: absolute;
+    margin-top: 37.8%;
+    margin-left: 60%;
+}
+
 .software {
-    height: 100vh;
+    height: 140vh;
 
     display: flex;
 
@@ -24,17 +36,51 @@
     margin-top: 10%;
 }
 
-.software .text-container .small-text {
+.software .text-container-small-top {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+}
+
+.software .small-text {
     font-family: "Lato";
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 0.875em;
     display: flex;
 
     color: #000000;
 }
 
-.software .text-container .big-text {
+.software .hover-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875em;
+    display: flex;
+
+    color: #000000;
+
+    margin-bottom: 15px;
+}
+
+.software .medium-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.125em;
+    line-height: 150%;
+    color: #000000;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.software .big-text {
     font-family: "lato";
     font-style: normal;
     font-weight: 800;

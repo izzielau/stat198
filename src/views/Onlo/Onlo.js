@@ -4,6 +4,7 @@ import './Onlo.css';
 
 import Button from '../../components/Button';
 import ExternalButton from '../../components/ExternalButton';
+import designguide from '../../assets/design-guide-onlo.png'
 
 function Onlo() {
     return (
@@ -21,7 +22,6 @@ function Onlo() {
             prototypes in Figma.
             </text>
             <div class="spacer"> </div>
-
         </div>
         
     </div>

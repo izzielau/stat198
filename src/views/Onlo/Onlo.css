@@ -72,3 +72,10 @@
 .onlo .text-container .spacer {
     height: 15px;
 }
+
+.onlo .image {
+    width: 25vw;
+    object-fit: cover;
+
+    margin-bottom: 50px;
+}
